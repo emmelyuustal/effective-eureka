@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Hello World</title>
+</head>
+
+<style>
+   body {
+       font-size: 3.0em;
+   }
+</style>
+
+<body class="container">
+    <!--  BEGINS: Content for our application -->
+    <h1>Labrador</h1>
+    <center>
+	<img src="img/dog.jpg" width="50%">
+	<p>
+	   The Labrador Retriever, also Labrador, is a type of retriever-gun dog. The Labrador is one of the most popular breeds of dog in the United Kingdom and the United States.
+
+
+	</p>
+	<h2>Quiz</h2>
+	<button id="question1" type="button" class="btn btn-primary">Were are Labradors most popular?</button>
+    </center>
+
+
+
+
+    <!--  ENDS: Content for our application  -->
+
+    <!--  BEGINS: Script block  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        $("#question1").click(function() {
+            alert("In the UK.");
+        });
+    </script>
+    <!--  ENDS: Script block  -->
+</body>
+
+</html>
